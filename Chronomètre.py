@@ -3,8 +3,8 @@ def truncate(n, decimals = 0):
     multiplier = 10 ** decimals 
     return int(n * multiplier) / multiplier
 print()
-start=int(input("Pour lancer le chronomètre, tapez sur \"1\" puis appuez sur \"enter\": "))
-if start==1:
+start=int(input("Pour lancer le chronomètre, tapez un chiffre quelquonque puis appuez sur \"enter\": "))
+if start>=0 or start<=9:
     print("Le chronomètre va commecer dans :")
     for k in range (5,0,-1):
         print(k,"s")
