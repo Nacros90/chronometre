@@ -26,7 +26,7 @@ while start==1:
         print()
         stop=int(input("Pour arreter le chronometre entrer un chiffre entre 0 et 8, pour enregistrer un nouveau tour entrer le chiffre 9 : "))
         print()
-        nbtour=nbtour+1
+        nbtour=nbtour+1                                            #tenter de mettre un système permêtant d'enregister les tours sur un doc
     if stop>=0 or stop <=8:
         t2=time.time()
         print("Arret du chronomètre...")
